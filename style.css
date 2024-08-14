@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.dc-banner {
+  width: 300px;
+  /*float: left;*/
+  margin: 40px 40px;
+  cursor: pointer;
+}
+
+.buttons {
+  /* float: left;*/
+  margin-top: 50px;
+  margin: 55px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  float: inline-end;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.button {
+  font-size: 23px;
+  padding: 10px 20px;
+  margin-left: 70px;
+  border-radius: 25px;
+  border-width: 1px;
+  background-color: #00322e;
+  border-color: #00322e;
+  color: white;
+  cursor: pointer;
+
+  border-style: solid;
+}
+
+.button:hover {
+  box-shadow: 0px 0px 100px #00322e;
+  transition: 0.2s;
+}
+
+.dc-content {
+  float: right;
+  width: 500px;
+  margin-top: 100px;
+  margin-right: 200px;
+  width: 30%;
+}
+
+.welcome {
+  margin-top: 200px;
+  margin-left: 300px;
+  width: 50%;
+  font-size: 70px;
+  width: 400px;
+}
+
+.strong {
+  font-weight: bolder;
+  color: #01554e;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.content-text {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  margin-left: 300px;
+  margin-top: 20px;
+  width: 600px;
+  font-size: 25px;
+  color: rgb(56, 56, 56);
+}
+
+.headerss {
+  width: 50%;
+}
+
+@media (max-width: 992px) {
+}
